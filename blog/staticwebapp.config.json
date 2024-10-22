@@ -8,8 +8,8 @@
   }  ,
 "routes": [
     {
-      "rewrite": "/index.html",
-      "route": ""
+      "rewrite": "",
+      "route": "/*"
     }
   ]
 }
