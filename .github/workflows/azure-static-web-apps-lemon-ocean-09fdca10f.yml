@@ -13,6 +13,7 @@ jobs:
   build_and_deploy_job:
     if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.action != 'closed')
     runs-on: ubuntu-latest
+    timeout-minutes: 60  # 1-hour timeout
     name: Build and Deploy Job
     steps:
       - uses: actions/checkout@v3
@@ -32,6 +33,8 @@ jobs:
           api_location: "" # Api source code path - optional
           output_location: "" # Built app content directory - optional
           ###### End of Repository/Build Configurations ######
+          timeout: 1200  # 20 minutes
+          verbose: true
 
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
