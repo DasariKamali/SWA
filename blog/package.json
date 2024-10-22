@@ -19,6 +19,7 @@
     "build": "next build",
     "dev": "next dev",
     "lint": "next lint",
+    "postbuild": "cp staticwebapp.config.json ./out",
     "start": "next start"
   },
   "version": "0.1.0",
