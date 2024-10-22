@@ -50,7 +50,7 @@ jobs:
           action: "upload"  # Explicitly specify the action
           
           app_location: "./blog"  # Location of your app's code
-          output_location: ".next"  # Output directory for Next.js
+          output_location: "./blog/.next"  # Output directory for Next.js
 
           timeout: 2700  # 45 minutes for deployment
           verbose: true  # Enable verbose logging
