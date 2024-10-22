@@ -22,5 +22,8 @@
     "postbuild": "cp staticwebapp.config.json ./out",
     "start": "next start"
   },
-  "version": "0.1.0"
+  "version": "0.1.0",
+  "engines": {
+  "node": "18.x"
+}
 }
