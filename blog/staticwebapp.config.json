@@ -8,8 +8,8 @@
   }  ,
 "routes": [
     {
-      "rewrite": "",
-      "route": "/blog*"
+      "rewrite": "/blog/",
+      "route": "/*"
     }
   ]
 }
