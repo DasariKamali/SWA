@@ -9,6 +9,7 @@
 "routes": [
     {
       "rewrite": "/blog/",
+       basePath: '/blog',
       "route": "/blog*"
     }
   ]
