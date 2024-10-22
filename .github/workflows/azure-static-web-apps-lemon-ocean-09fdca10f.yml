@@ -47,8 +47,11 @@ jobs:
         with:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_LEMON_OCEAN_09FDCA10F }}
           repo_token: ${{ secrets.GITHUB_TOKEN }}
+          action: "upload"  # Explicitly specify the action
+          
           app_location: "./blog"  # Location of your app's code
-          output_location: ""  # Adjust if your build output is different
+          output_location: ".next"  # Output directory for Next.js
+
           timeout: 2700  # 45 minutes for deployment
           verbose: true  # Enable verbose logging
 
