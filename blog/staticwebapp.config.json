@@ -9,7 +9,7 @@
 "routes": [
     {
       "rewrite": "index.html",
-      "route": "/*"
+      "route": "/blog*"
     }
   ]
 }
