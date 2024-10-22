@@ -8,9 +8,7 @@
   }  ,
 "routes": [
     {
-      "rewrite": "/blog/",
-       "basePath": "/blog",
-      "route": "/blog*"
+      "route": "/blog/index.html*"
     }
   ]
 }
