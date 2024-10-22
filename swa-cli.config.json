@@ -7,7 +7,7 @@
       "apiLocation": "api",
       "apiVersion": "18",
       "appBuildCommand": "pnpm build",
-      "appDevserverUrl": "http://localhost:3000",
+      "appDevserverUrl": "http://localhost:3000/blog",
       "appLocation": "blog",
       "outputLocation": ".next",
       "run": "pnpm dev"
